@@ -1,11 +1,5 @@
-const amount = 12;
 
-if (amount<10){
-    console.log('small num');
-    
-}else{
-    console.log('large number');
-    
-}
+setInterval(()=>{
+console.log('hello world');
 
-console.log(`heey there im new on node`);
+},1000)
